@@ -1,0 +1,72 @@
+*,
+*::after
+*::backdrop{
+    box-sizing:border-box;
+}
+.modal {
+    opacity: 0;
+    /* display: none; */
+    width: 100%;
+    height: 100vw;
+    background-image: url('/Безымянный.png');
+    position: relative;
+    transition: opacity 2s ease;
+}
+.modal.open{
+    opacity: 1;
+    /* display: block; */
+
+}
+.btnOpen{
+    width: 150px;
+    height: 69px;
+    font-size: 25px;
+    color:rgb(172, 175, 1);
+    cursor: pointer;
+    font-family: monospace;
+    background:linear-gradient(to left, #333333, #dd1818, #333333);
+}
+.btnClose{
+    background:linear-gradient(to left, #cc2b5e, #753a88, #cc2b5e);
+    font-family: monospace;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 69px;
+    width: 150px;
+    color:rgb(9, 207, 108);
+    cursor: pointer;
+    font-size: 25px;
+}
+.instogram{
+    font-size: 24px;
+    font-family: monospace;
+    background:linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+    color: #000000;
+    text-decoration: none;
+}
+.VK{
+    font-size: 24px;
+    font-family: monospace;
+    background: linear-gradient(to left, #0575E6, #021B79);
+    color: #000;
+    text-decoration: none;
+}
+.YouTube{
+    font-size: 24px;
+    font-family: monospace;
+    background: linear-gradient(to left, #e52d27, #b31217);
+    color: #000;
+    text-decoration: none;
+}
+.phone{
+    color: rgb(255, 255, 255); 
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.lorem{
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30;
+}
